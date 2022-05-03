@@ -1,0 +1,18 @@
+body { 
+    padding-top: 90px; 
+}
+.text {
+    padding-left: 10px;
+    margin-top: 10px;
+    height: 800px;
+}
+@media (max-width: 767px) {
+  #header-nav.fixed-top {
+    position: static;
+    margin-top: -90px;
+  }
+  #main {
+    position: static;
+    
+  }
+}
